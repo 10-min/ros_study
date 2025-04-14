@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.063s] [ 12%] Built target client
+[0.063s] [ 31%] Built target sub_pose
+[0.064s] [ 37%] Built target server
+[0.065s] [ 50%] Built target subscriber
+[0.065s] [ 75%] Built target publisher
+[0.065s] [ 75%] Built target listener
+[0.066s] [ 87%] Built target talker
+[0.070s] [ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[3.277s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In member function ‘[01m[Kvoid MultiSpawning::[01;32m[Kcallback_service[m[K(std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[3.277s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:21:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.277s]    21 |         void callback_service([01;35m[Kconst std::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Request> request[m[K,
+[3.277s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.277s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:22:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.277s]    22 |                             [01;35m[Kstd::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Response> response[m[K) {
+[3.277s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.632s] [100%] [32m[1mLinking CXX executable my_service_server[0m
+[5.771s] [100%] Built target my_service_server
+[5.782s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[5.782s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package
+[5.791s] -- Install configuration: ""
+[5.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/talker
+[5.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/listener
+[5.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/server
+[5.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/client
+[5.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/subscriber
+[5.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/publisher
+[5.793s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/sub_pose
+[5.801s] -- Set non-toolchain portion of runtime path of "/home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/sub_pose" to ""
+[5.801s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/my_service_server
+[5.804s] -- Set non-toolchain portion of runtime path of "/home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/my_service_server" to ""
+[5.804s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
+[5.804s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
+[5.804s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh
+[5.804s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv
+[5.804s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/path.sh
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/path.dsv
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.bash
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.sh
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.zsh
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.dsv
+[5.805s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/package.dsv
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+[5.805s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/package.xml
+[5.806s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package

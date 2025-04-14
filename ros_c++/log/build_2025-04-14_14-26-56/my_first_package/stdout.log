@@ -1,0 +1,8 @@
+[ 37%] Built target client
+[ 37%] Built target server
+[ 37%] Built target publisher
+[ 62%] Built target subscriber
+[ 62%] Built target listener
+[ 87%] Built target sub_pose
+[ 87%] Built target talker
+[ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m

@@ -1,0 +1,186 @@
+[0.009s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package_msgs -- -j12 -l12
+[0.054s] [  2%] Built target my_first_package_msgs__rosidl_generator_type_description
+[0.065s] [  2%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.080s] [  6%] Built target my_first_package_msgs__cpp
+[0.080s] [ 22%] Built target my_first_package_msgs__rosidl_generator_c
+[0.128s] [ 40%] Built target my_first_package_msgs__rosidl_typesupport_c
+[0.129s] [ 40%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[0.129s] [ 50%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[0.131s] [ 59%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[0.138s] [ 68%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[0.139s] [ 77%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[0.181s] [ 77%] Built target my_first_package_msgs
+[0.225s] [ 79%] Built target my_first_package_msgs__py
+[0.260s] [ 86%] Built target my_first_package_msgs__rosidl_generator_py
+[0.293s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_introspection_c
+[0.294s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_fastrtps_c
+[0.294s] [100%] Built target my_first_package_msgs_s__rosidl_typesupport_c
+[0.451s] running egg_info
+[0.479s] writing my_first_package_msgs.egg-info/PKG-INFO
+[0.480s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[0.480s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[0.570s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.572s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.726s] [100%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[0.748s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package_msgs -- -j12 -l12
+[0.770s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package_msgs
+[0.784s] -- Install configuration: ""
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.json
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.json
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.785s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__description.c
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.786s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__description.c
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[0.787s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[0.788s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.788s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.788s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.788s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.789s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.790s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.791s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.792s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.793s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[0.794s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[0.795s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info
+[0.795s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.795s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.795s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.796s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.796s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg/__init__.py
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/__init__.py
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn.py
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[0.797s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv/__init__.py
+[0.883s] Listing '/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs'...
+[0.883s] Listing '/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/msg'...
+[0.883s] Listing '/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/srv'...
+[0.897s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.897s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.so
+[0.898s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/python3.12/site-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.so
+[0.899s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[0.899s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[0.899s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[0.899s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[0.899s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[0.900s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[0.900s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[0.900s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[0.900s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[0.900s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[0.901s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[0.901s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[0.901s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[0.901s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[0.902s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[0.902s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[0.902s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[0.902s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[0.902s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.902s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.903s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[0.904s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[0.905s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[0.906s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[0.907s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package_msgs

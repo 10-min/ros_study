@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package_msgs -- -j12 -l12
+[0.032s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.055s] -- Found Python3: /home/tm/venv/ros/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.140s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.197s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.269s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.269s]   execute_process(/home/tm/venv/ros/bin/python3 -m rosidl_adapter
+[0.269s]   --package-name my_first_package_msgs --arguments-file
+[0.269s]   /home/tm/dev_ws/ros_c++/build/my_first_package_msgs/rosidl_adapter__arguments__my_first_package_msgs.json
+[0.269s]   --output-dir
+[0.270s]   /home/tm/dev_ws/ros_c++/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs
+[0.270s]   --output-file
+[0.270s]   /home/tm/dev_ws/ros_c++/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs.idls)
+[0.270s]   returned error code 1:
+[0.270s] 
+[0.270s]   Traceback (most recent call last):
+[0.270s] 
+[0.270s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.270s]     File "<frozen runpy>", line 88, in _run_code
+[0.270s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.270s]       sys.exit(main())
+[0.271s]                ^^^^^^
+[0.271s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.271s]       abs_idl_file = convert_to_idl(
+[0.271s]                      ^^^^^^^^^^^^^^^
+[0.271s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.271s]       return convert_srv_to_idl(
+[0.271s]              ^^^^^^^^^^^^^^^^^^^
+[0.271s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.271s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.271s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.272s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 851, in parse_service_string
+[0.272s]       raise InvalidServiceSpecification(
+[0.272s] 
+[0.272s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[0.272s]   '---' between request and response
+[0.272s] 
+[0.272s] Call Stack (most recent call first):
+[0.272s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.272s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.272s] 
+[0.272s] [0m
+[0.273s] -- Configuring incomplete, errors occurred!
+[0.273s] gmake: *** [Makefile:815: cmake_check_build_system] Error 1
+[0.275s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package_msgs -- -j12 -l12

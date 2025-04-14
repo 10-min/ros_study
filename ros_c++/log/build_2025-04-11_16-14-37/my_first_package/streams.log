@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.034s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.202s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.227s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.236s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.316s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.451s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.509s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.530s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.544s] -- Found my_first_package_msgs: 0.0.0 (/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/share/my_first_package_msgs/cmake)
+[0.639s] -- Configuring done (0.6s)
+[0.665s] -- Generating done (0.0s)
+[0.675s] -- Build files have been written to: /home/tm/dev_ws/ros_c++/build/my_first_package
+[0.712s] [ 14%] Built target talker
+[0.713s] [ 28%] Built target client
+[0.713s] [ 42%] Built target publisher
+[0.713s] [ 71%] Built target subscriber
+[0.713s] [ 71%] Built target listener
+[0.717s] [ 85%] Built target server
+[0.718s] [ 92%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m
+[2.693s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:[m[K In member function ‘[01m[Kvoid CmdAndPose::[01;32m[Kcallback_pose[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.693s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:18:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::pose_x[m[K’ in read-only object
+[2.693s]    18 |             [01;31m[Kcmd_pose.pose_x = msg->x[m[K;
+[2.693s]       |             [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.693s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:19:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::pose_y[m[K’ in read-only object
+[2.694s]    19 |             [01;31m[Kcmd_pose.pose_y = msg->y[m[K;
+[2.694s]       |             [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.694s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:20:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::linear_vel[m[K’ in read-only object
+[2.694s]    20 |             [01;31m[Kcmd_pose.linear_vel = msg->linear_velocity[m[K;
+[2.694s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.694s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:21:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::angular_vel[m[K’ in read-only object
+[2.694s]    21 |             [01;31m[Kcmd_pose.angular_vel = msg->angular_velocity[m[K;
+[2.694s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.726s] gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+[4.726s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+[4.726s] gmake: *** [Makefile:146: all] Error 2
+[4.728s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

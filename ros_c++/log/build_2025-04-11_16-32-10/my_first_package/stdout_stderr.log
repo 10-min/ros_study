@@ -1,0 +1,34 @@
+[ 14%] Built target listener
+[ 28%] Built target server
+[ 42%] Built target talker
+[ 57%] Built target client
+[ 71%] Built target publisher
+[ 85%] Built target subscriber
+[ 92%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:[m[K In constructor ‘[01m[KCmdAndPose::[01;32m[KCmdAndPose[m[K()[m[K’:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:16:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCmdAndPose::create_subscription<geometry_msgs::msg::Twist>(const char [17], std::_Bind_helper<false, void (CmdAndPose::*)(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >), CmdAndPose*, const std::_Placeholder<1>&>::type)[m[K’
+   16 |             sub_cmdvel = [01;31m[Kthis->create_subscription<geometry_msgs::msg::Twist>([m[K
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   17 | [01;31m[K                "/turtle1/cmd_vel", std::bind(&CmdAndPose::callback_cmd, this, _1)[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   18 | [01;31m[K            )[m[K;
+      |             [01;31m[K~[m[K                                                                 
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:[m[K In member function ‘[01m[Kvoid CmdAndPose::[01;32m[Kcallback_cmd[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:30:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   30 |             cmd_pose.cmd_vel_linear = msg->linear[01;31m[K->[m[Kx;
+      |                                                  [01;31m[K^~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:31:52:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+   31 |             cmd_pose.cmd_vel_angular = msg->angular[01;31m[K->[m[Kz
+      |                                                    [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

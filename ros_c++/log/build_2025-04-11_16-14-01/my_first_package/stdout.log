@@ -1,0 +1,7 @@
+[ 14%] Built target server
+[ 28%] Built target publisher
+[ 42%] Built target subscriber
+[ 64%] Built target client
+[ 71%] Built target talker
+[ 85%] Built target listener
+[ 92%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m

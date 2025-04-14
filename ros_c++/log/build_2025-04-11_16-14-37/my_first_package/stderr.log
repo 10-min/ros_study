@@ -1,0 +1,16 @@
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:[m[K In member function ‘[01m[Kvoid CmdAndPose::[01;32m[Kcallback_pose[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:18:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::pose_x[m[K’ in read-only object
+   18 |             [01;31m[Kcmd_pose.pose_x = msg->x[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:19:29:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::pose_y[m[K’ in read-only object
+   19 |             [01;31m[Kcmd_pose.pose_y = msg->y[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:20:33:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::linear_vel[m[K’ in read-only object
+   20 |             [01;31m[Kcmd_pose.linear_vel = msg->linear_velocity[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:21:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kmy_first_package_msgs::msg::CmdAndPoseVel_<std::allocator<void> >::angular_vel[m[K’ in read-only object
+   21 |             [01;31m[Kcmd_pose.angular_vel = msg->angular_velocity[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

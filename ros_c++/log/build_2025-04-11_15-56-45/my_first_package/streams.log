@@ -1,0 +1,135 @@
+[0.008s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/dev_ws/ros_c++/src/my_first_package -DCMAKE_INSTALL_PREFIX=/home/tm/dev_ws/ros_c++/install/my_first_package
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.097s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.370s] -- Found Python3: /home/tm/venv/ros/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.460s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.492s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.504s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.701s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.793s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.806s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.859s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.879s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.976s] -- Configuring done (1.0s)
+[1.001s] -- Generating done (0.0s)
+[1.013s] -- Build files have been written to: /home/tm/dev_ws/ros_c++/build/my_first_package
+[1.026s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/dev_ws/ros_c++/src/my_first_package -DCMAKE_INSTALL_PREFIX=/home/tm/dev_ws/ros_c++/install/my_first_package
+[1.027s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[1.067s] [  7%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.067s] [ 14%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.069s] [ 21%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.069s] [ 28%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/my_subscriber.cpp.o[0m
+[1.070s] [ 35%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.071s] [ 50%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m
+[1.072s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/my_publisher.cpp.o[0m
+[4.988s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.988s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.988s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.988s]                  from [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:1[m[K:
+[4.989s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:[m[K In member function ‘[01m[Kvoid CmdAndPose::[01;32m[Kcallback_pose[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.989s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:17:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr&)[m[K’
+[4.989s]    17 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kstd::to_string(msg)[m[K);
+[4.989s]       |                                             [01;31m[K~~~~~~~~~~~~~~^~~~~[m[K
+[4.989s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[4.989s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:289:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::[01;32m[Kto_string[m[K(const rclcpp::Parameter&)[m[K’
+[4.989s]   289 | [01;36m[Kto_string[m[K(const rclcpp::Parameter & param);
+[4.990s]       | [01;36m[K^~~~~~~~~[m[K
+[4.990s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:289:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst rclcpp::Parameter&[m[K’
+[4.990s]   289 | to_string([01;36m[Kconst rclcpp::Parameter & param[m[K);
+[4.990s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.990s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:294:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::[01;32m[Kto_string[m[K(const vector<rclcpp::Parameter>&)[m[K’
+[4.990s]   294 | [01;36m[Kto_string[m[K(const std::vector<rclcpp::Parameter> & parameters);
+[4.990s]       | [01;36m[K^~~~~~~~~[m[K
+[4.991s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:294:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst std::vector<rclcpp::Parameter>&[m[K’
+[4.991s]   294 | to_string([01;36m[Kconst std::vector<rclcpp::Parameter> & parameters[m[K);
+[4.991s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.991s] In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+[4.991s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K:
+[4.992s] [01m[K/usr/include/c++/13/bits/basic_string.h:4162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(int)[m[K’
+[4.992s]  4162 |   [01;36m[Kto_string[m[K(int __val)
+[4.992s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.992s] [01m[K/usr/include/c++/13/bits/basic_string.h:4162:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kint[m[K’
+[4.992s]  4162 |   to_string([01;36m[Kint __val[m[K)
+[4.992s]       |             [01;36m[K~~~~^~~~~[m[K
+[4.992s] [01m[K/usr/include/c++/13/bits/basic_string.h:4177:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(unsigned int)[m[K’
+[4.993s]  4177 |   [01;36m[Kto_string[m[K(unsigned __val)
+[4.993s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.993s] [01m[K/usr/include/c++/13/bits/basic_string.h:4177:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kunsigned int[m[K’
+[4.993s]  4177 |   to_string([01;36m[Kunsigned __val[m[K)
+[4.993s]       |             [01;36m[K~~~~~~~~~^~~~~[m[K
+[4.993s] [01m[K/usr/include/c++/13/bits/basic_string.h:4189:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long int)[m[K’
+[4.993s]  4189 |   [01;36m[Kto_string[m[K(long __val)
+[4.994s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.994s] [01m[K/usr/include/c++/13/bits/basic_string.h:4189:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Klong int[m[K’
+[4.994s]  4189 |   to_string([01;36m[Klong __val[m[K)
+[4.994s]       |             [01;36m[K~~~~~^~~~~[m[K
+[4.994s] [01m[K/usr/include/c++/13/bits/basic_string.h:4204:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long unsigned int)[m[K’
+[4.994s]  4204 |   [01;36m[Kto_string[m[K(unsigned long __val)
+[4.994s]       |   [01;36m[K^~~~~~~~~[m[K
+[4.994s] [01m[K/usr/include/c++/13/bits/basic_string.h:4204:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Klong unsigned int[m[K’
+[4.995s]  4204 |   to_string([01;36m[Kunsigned long __val[m[K)
+[4.999s]       |             [01;36m[K~~~~~~~~~~~~~~^~~~~[m[K
+[4.999s] [01m[K/usr/include/c++/13/bits/basic_string.h:4216:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long int)[m[K’
+[5.000s]  4216 |   [01;36m[Kto_string[m[K(long long __val)
+[5.000s]       |   [01;36m[K^~~~~~~~~[m[K
+[5.000s] [01m[K/usr/include/c++/13/bits/basic_string.h:4216:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Klong long int[m[K’
+[5.000s]  4216 |   to_string([01;36m[Klong long __val[m[K)
+[5.000s]       |             [01;36m[K~~~~~~~~~~^~~~~[m[K
+[5.000s] [01m[K/usr/include/c++/13/bits/basic_string.h:4229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long unsigned int)[m[K’
+[5.000s]  4229 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+[5.001s]       |   [01;36m[K^~~~~~~~~[m[K
+[5.001s] [01m[K/usr/include/c++/13/bits/basic_string.h:4229:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Klong long unsigned int[m[K’
+[5.001s]  4229 |   to_string([01;36m[Kunsigned long long __val[m[K)
+[5.001s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[5.001s] [01m[K/usr/include/c++/13/bits/basic_string.h:4241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(float)[m[K’
+[5.001s]  4241 |   [01;36m[Kto_string[m[K(float __val)
+[5.001s]       |   [01;36m[K^~~~~~~~~[m[K
+[5.002s] [01m[K/usr/include/c++/13/bits/basic_string.h:4241:19:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kfloat[m[K’
+[5.002s]  4241 |   to_string([01;36m[Kfloat __val[m[K)
+[5.002s]       |             [01;36m[K~~~~~~^~~~~[m[K
+[5.002s] [01m[K/usr/include/c++/13/bits/basic_string.h:4251:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(double)[m[K’
+[5.002s]  4251 |   [01;36m[Kto_string[m[K(double __val)
+[5.002s]       |   [01;36m[K^~~~~~~~~[m[K
+[5.002s] [01m[K/usr/include/c++/13/bits/basic_string.h:4251:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Kdouble[m[K’
+[5.002s]  4251 |   to_string([01;36m[Kdouble __val[m[K)
+[5.003s]       |             [01;36m[K~~~~~~~^~~~~[m[K
+[5.003s] [01m[K/usr/include/c++/13/bits/basic_string.h:4261:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long double)[m[K’
+[5.003s]  4261 |   [01;36m[Kto_string[m[K(long double __val)
+[5.003s]       |   [01;36m[K^~~~~~~~~[m[K
+[5.003s] [01m[K/usr/include/c++/13/bits/basic_string.h:4261:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} to ‘[01m[Klong double[m[K’
+[5.003s]  4261 |   to_string([01;36m[Klong double __val[m[K)
+[5.003s]       |             [01;36m[K~~~~~~~~~~~~^~~~~[m[K
+[6.878s] [ 57%] [32m[1mLinking CXX executable client[0m
+[7.076s] [ 57%] Built target client
+[7.146s] [ 64%] [32m[1mLinking CXX executable server[0m
+[7.308s] [ 64%] Built target server
+[7.515s] gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+[7.516s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+[7.516s] gmake[1]: *** Waiting for unfinished jobs....
+[7.613s] [ 71%] [32m[1mLinking CXX executable talker[0m
+[7.777s] [ 71%] Built target talker
+[7.973s] [ 78%] [32m[1mLinking CXX executable publisher[0m
+[8.119s] [ 78%] Built target publisher
+[10.536s] [ 85%] [32m[1mLinking CXX executable listener[0m
+[10.712s] [ 92%] [32m[1mLinking CXX executable subscriber[0m
+[10.782s] [ 92%] Built target listener
+[10.953s] [ 92%] Built target subscriber
+[10.953s] gmake: *** [Makefile:146: all] Error 2
+[10.955s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.110s] [ 25%] Built target talker
+[0.110s] [ 25%] Built target listener
+[0.116s] [ 37%] Built target sub_pose
+[0.116s] [ 50%] Built target client
+[0.117s] [ 75%] Built target publisher
+[0.117s] [ 75%] Built target server
+[0.122s] [ 87%] Built target subscriber
+[0.128s] [ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[3.409s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:32:9:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Krclcpp::Client[m[K’ without an argument list
+[3.409s]    32 |         [01;31m[Krclcpp[m[K::Client::Client<turtlesim::srv::TeleportAbsolute> teleport;
+[3.409s]       |         [01;31m[K^~~~~~[m[K
+[3.410s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:32:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.410s]    32 |         rclcpp::Client::[01;31m[KClient[m[K<turtlesim::srv::TeleportAbsolute> teleport;
+[3.410s]       |                         [01;31m[K^~~~~~[m[K
+[3.410s]       |                               [32m[K;[m[K
+[3.410s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:32:31:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[3.410s]    32 |         rclcpp::Client::Client[01;31m[K<[m[Kturtlesim::srv::TeleportAbsolute> teleport;
+[3.410s]       |                               [01;31m[K^[m[K
+[3.410s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:33:43:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedRequest[m[K’ in ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute[m[K’ does not name a type
+[3.410s]    33 |         turtlesim::srv::TeleportAbsolute::[01;31m[KSharedRequest[m[K req_teleport;
+[3.410s]       |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[3.426s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In constructor ‘[01m[KMultiSpawning::[01;32m[KMultiSpawning[m[K()[m[K’:
+[3.426s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kteleport[m[K’ was not declared in this scope
+[3.426s]    15 |             [01;31m[Kteleport[m[K = this->create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute");
+[3.426s]       |             [01;31m[K^~~~~~~~[m[K
+[3.449s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq_teleport[m[K’ was not declared in this scope
+[3.449s]    17 |             [01;31m[Kreq_teleport[m[K = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+[3.449s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[3.465s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In member function ‘[01m[Kvoid MultiSpawning::[01;32m[Kcallback_service[m[K(std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[3.465s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:28:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq_teleport[m[K’ was not declared in this scope
+[3.465s]    28 |                                 [01;31m[Kreq_teleport[m[K->x = 1.0;
+[3.465s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:29:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kteleport[m[K’ was not declared in this scope
+[3.476s]    29 |                                 [01;31m[Kteleport[m[K.async_send_request(req_teleport);
+[3.476s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.476s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:21:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.476s]    21 |         void callback_service([01;35m[Kconst std::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Request> request[m[K,
+[3.477s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.477s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:22:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.477s]    22 |                             [01;35m[Kstd::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Response> response[m[K) {
+[3.477s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.806s] gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Error 1
+[4.807s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Error 2
+[4.807s] gmake: *** [Makefile:146: all] Error 2
+[4.809s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

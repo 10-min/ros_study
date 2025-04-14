@@ -1,0 +1,7 @@
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_package_msgs/msg/cmd_and_pose_vel.hpp: No such file or directory
+    3 | #include [01;31m[K"my_first_package_msgs/msg/cmd_and_pose_vel.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

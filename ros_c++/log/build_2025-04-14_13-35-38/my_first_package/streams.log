@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.069s] [ 12%] Built target talker
+[0.069s] [ 25%] Built target listener
+[0.069s] [ 43%] Built target subscriber
+[0.069s] [ 50%] Built target client
+[0.070s] [ 62%] Built target server
+[0.070s] [ 75%] Built target publisher
+[0.070s] [ 87%] Built target sub_pose
+[0.074s] [ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[0.345s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/teleport_absolute.hpp: No such file or directory
+[0.345s]     3 | #include [01;31m[K"turtlesim/srv/teleport_absolute.hpp"[m[K
+[0.345s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.345s] compilation terminated.
+[0.349s] gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Error 1
+[0.349s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Error 2
+[0.349s] gmake: *** [Makefile:146: all] Error 2
+[0.351s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

@@ -1,0 +1,16 @@
+[0.010s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.062s] [ 14%] Built target talker
+[0.062s] [ 28%] Built target server
+[0.062s] [ 42%] Built target client
+[0.063s] [ 71%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m
+[0.063s] [ 78%] Built target listener
+[0.063s] [ 78%] Built target subscriber
+[0.064s] [ 92%] Built target publisher
+[0.250s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/turtle_cmd_and_pose.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_package_msgs/msg/cmd_and_pose_vel.hpp: No such file or directory
+[0.250s]     3 | #include [01;31m[K"my_first_package_msgs/msg/cmd_and_pose_vel.hpp"[m[K
+[0.250s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.251s] compilation terminated.
+[0.263s] gmake[2]: *** [CMakeFiles/sub_pose.dir/build.make:76: CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o] Error 1
+[0.263s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sub_pose.dir/all] Error 2
+[0.263s] gmake: *** [Makefile:146: all] Error 2
+[0.265s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

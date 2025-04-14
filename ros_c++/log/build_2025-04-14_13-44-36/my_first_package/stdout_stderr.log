@@ -1,0 +1,55 @@
+[ 12%] Built target client
+[ 37%] Built target server
+[ 37%] Built target subscriber
+[ 56%] Built target sub_pose
+[ 62%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[ 68%] Built target publisher
+[ 81%] Built target listener
+[ 93%] Built target talker
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In constructor ‘[01m[KMultiSpawning::[01;32m[KMultiSpawning[m[K()[m[K’:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:11:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::Client()[m[K’
+   11 |         MultiSpawning() : rclcpp::Node("multi_spawn"[01;31m[K)[m[K {
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:495:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::[01;32m[KClient[m[K(rclcpp::node_interfaces::NodeBaseInterface*, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, const std::string&, rcl_client_options_t&) [35m[K[with ServiceT = turtlesim::srv::TeleportAbsolute; rclcpp::node_interfaces::NodeGraphInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>; std::string = std::__cxx11::basic_string<char>; rcl_client_options_t = rcl_client_options_s][m[K[m[K’
+  495 |   [01;36m[KClient[m[K(
+      |   [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:495:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:15:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMultiSpawning::create_client(const char [27], int, std::nullptr_t)[m[K’
+   15 |             teleport = [01;31m[Kthis->create_client("/turtle1/teleport_absolute", 10, nullptr)[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:15:43:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+   15 |             teleport = [01;36m[Kthis->create_client("/turtle1/teleport_absolute", 10, nullptr)[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  285 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:15:43:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KServiceT[m[K’
+   15 |             teleport = [01;36m[Kthis->create_client("/turtle1/teleport_absolute", 10, nullptr)[m[K;
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In member function ‘[01m[Kvoid MultiSpawning::[01;32m[Kcallback_service[m[K(std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:21:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   21 |         void callback_service([01;35m[Kconst std::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Request> request[m[K,
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:22:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 |                             [01;35m[Kstd::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Response> response[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

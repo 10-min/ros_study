@@ -1,0 +1,82 @@
+[0.018s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.127s] [ 12%] Built target server
+[0.131s] [ 25%] Built target listener
+[0.132s] [ 50%] Built target subscriber
+[0.132s] [ 50%] Built target client
+[0.136s] [ 56%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[0.145s] [ 81%] Built target publisher
+[0.145s] [ 81%] Built target sub_pose
+[0.145s] [ 93%] Built target talker
+[3.317s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:31:15:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[Knamespace[m[K’
+[3.317s]    31 |         using [01;31m[Knamespace[m[K std;
+[3.317s]       |               [01;31m[K^~~~~~~~~[m[K
+[3.351s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:62:48:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::Client<turtlesim::srv::Spawn>[m[K’ does not name a type
+[3.351s]    62 |         rclcpp::Client<turtlesim::srv::Spawn>::[01;31m[KSharePtr[m[K spawn;
+[3.351s]       |                                                [01;31m[K^~~~~~~~[m[K
+[3.354s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[3.354s]    67 |         [01;31m[Kvector[m[K<vector<double>> calc_position(int n, double r) {
+[3.354s]       |         [01;31m[K^~~~~~[m[K
+[3.371s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In constructor ‘[01m[KMultiSpawning::[01;32m[KMultiSpawning[m[K()[m[K’:
+[3.371s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn[m[K’ was not declared in this scope
+[3.371s]    25 |             [01;31m[Kspawn[m[K = this->create_client<turtlesim::srv::Spawn>("/spawn");
+[3.371s]       |             [01;31m[K^~~~~[m[K
+[3.377s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In member function ‘[01m[Kvoid MultiSpawning::[01;32m[Kcallback_service[m[K(std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[3.377s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:34:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope
+[3.377s]    34 |                                 [01;31m[Kvector[m[K<vector<double>> x_y_theta = calc_position(request->num, 3);
+[3.377s]       |                                 [01;31m[K^~~~~~[m[K
+[3.377s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:34:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.378s] In file included from [01m[K/usr/include/c++/13/vector:66[m[K,
+[3.378s]                  from [01m[K/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp:15[m[K,
+[3.378s]                  from [01m[K/home/tm/dev_ws/ros_c++/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp:7[m[K,
+[3.378s]                  from [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:1[m[K:
+[3.378s] [01m[K/usr/include/c++/13/bits/stl_vector.h:428:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::vector[m[K’
+[3.378s]   428 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+[3.378s]       |           [01;36m[K^~~~~~[m[K
+[3.378s] [01m[K/usr/include/c++/13/vector:86:13:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::vector[m[K’
+[3.378s]    86 |       using [01;36m[Kvector[m[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+[3.378s]       |             [01;36m[K^~~~~~[m[K
+[3.378s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:34:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[3.378s]    34 |                                 vector<vector<[01;31m[Kdouble[m[K>> x_y_theta = calc_position(request->num, 3);
+[3.378s]       |                                               [01;31m[K^~~~~~[m[K
+[3.378s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:35:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[3.378s]    35 |                                 vector<[01;31m[Kdouble[m[K> x = x_y_theta[0];
+[3.378s]       |                                        [01;31m[K^~~~~~[m[K
+[3.379s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:36:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[3.379s]    36 |                                 vector<[01;31m[Kdouble[m[K> y = x_y_theta[1];
+[3.379s]       |                                        [01;31m[K^~~~~~[m[K
+[3.379s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:37:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[3.379s]    37 |                                 vector<[01;31m[Kdouble[m[K> theta = x_y_theta[2];
+[3.379s]       |                                        [01;31m[K^~~~~~[m[K
+[3.386s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:39:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[3.386s]    39 |                                 for (int i = 0; i < [01;31m[Kx[m[K.size(); i++) {
+[3.386s]       |                                                     [01;31m[K^[m[K
+[3.395s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:41:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[3.395s]    41 |                                     req_spawn->y = [01;31m[Ky[m[K[i] + center_y;
+[3.396s]       |                                                    [01;31m[K^[m[K
+[3.396s]       |                                                    [32m[Kyn[m[K
+[3.404s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:42:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[3.404s]    42 |                                     req_spawn->theta = [01;31m[Ktheta[m[K[i];
+[3.404s]       |                                                        [01;31m[K^~~~~[m[K
+[3.416s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:44:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn[m[K’ was not declared in this scope
+[3.416s]    44 |                                     while (![01;31m[Kspawn[m[K->wait_for_service(1s)) {
+[3.416s]       |                                             [01;31m[K^~~~~[m[K
+[3.427s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:51:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn[m[K’ was not declared in this scope
+[3.427s]    51 |                                     [01;31m[Kspawn[m[K->async_send_request(req_spawn);
+[3.427s]       |                                     [01;31m[K^~~~~[m[K
+[3.435s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:55:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[3.435s]    55 |                                 response->x = [01;31m[Kx[m[K;
+[3.435s]       |                                               [01;31m[K^[m[K
+[3.443s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:56:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[3.443s]    56 |                                 response->y = [01;31m[Ky[m[K;
+[3.443s]       |                                               [01;31m[K^[m[K
+[3.443s]       |                                               [32m[Kyn[m[K
+[3.450s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:57:51:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope
+[3.450s]    57 |                                 response->theta = [01;31m[Ktheta[m[K;
+[3.450s]       |                                                   [01;31m[K^~~~~[m[K
+[3.450s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:32:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.450s]    32 |         void callback_service([01;35m[Kconst std::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Request> request[m[K,
+[3.450s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.160s] gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Error 1
+[5.160s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Error 2
+[5.160s] gmake: *** [Makefile:146: all] Error 2
+[5.163s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

@@ -1,0 +1,13 @@
+[0.029s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.154s] [ 25%] Built target listener
+[0.154s] [ 25%] Built target sub_pose
+[0.156s] [ 37%] Built target client
+[0.156s] [ 50%] Built target subscriber
+[0.161s] [ 62%] Built target talker
+[0.164s] [ 75%] Built target publisher
+[0.168s] [ 87%] Built target server
+[0.173s] [ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[3.929s] gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Interrupt
+[3.929s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Interrupt
+[3.929s] gmake: *** [Makefile:146: all] Interrupt
+[3.958s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12

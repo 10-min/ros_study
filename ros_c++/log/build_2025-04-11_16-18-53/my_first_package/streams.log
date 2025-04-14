@@ -1,0 +1,37 @@
+[0.013s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.082s] [ 14%] Built target server
+[0.082s] [ 28%] Built target talker
+[0.082s] [ 42%] Built target listener
+[0.084s] [ 57%] Built target client
+[0.089s] [ 85%] Built target subscriber
+[0.089s] [ 85%] Built target publisher
+[0.094s] [ 92%] [32mBuilding CXX object CMakeFiles/sub_pose.dir/src/turtle_cmd_and_pose.cpp.o[0m
+[7.410s] [100%] [32m[1mLinking CXX executable sub_pose[0m
+[7.663s] [100%] Built target sub_pose
+[7.676s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[7.677s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package
+[7.686s] -- Install configuration: ""
+[7.686s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/talker
+[7.686s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/listener
+[7.686s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/server
+[7.686s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/client
+[7.687s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/subscriber
+[7.687s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/publisher
+[7.687s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/sub_pose
+[7.691s] -- Set non-toolchain portion of runtime path of "/home/tm/dev_ws/ros_c++/install/my_first_package/lib/my_first_package/sub_pose" to ""
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/path.sh
+[7.691s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/environment/path.dsv
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.bash
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.sh
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.zsh
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/local_setup.dsv
+[7.692s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/package.dsv
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake
+[7.692s] -- Up-to-date: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+[7.692s] -- Installing: /home/tm/dev_ws/ros_c++/install/my_first_package/share/my_first_package/package.xml
+[7.694s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/dev_ws/ros_c++/build/my_first_package

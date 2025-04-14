@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/tm/dev_ws/ros_c++/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
+[0.126s] [ 25%] Built target publisher
+[0.126s] [ 25%] Built target sub_pose
+[0.130s] [ 50%] Built target listener
+[0.130s] [ 50%] Built target talker
+[0.130s] [ 62%] Built target subscriber
+[0.133s] [ 75%] Built target server
+[0.136s] [ 87%] Built target client
+[0.141s] [ 93%] [32mBuilding CXX object CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o[0m
+[3.388s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:[m[K In member function ‘[01m[Kvoid MultiSpawning::[01;32m[Kcallback_service[m[K(std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Request_<std::allocator<void> > >, std::shared_ptr<my_first_package_msgs::srv::MultiSpawn_Response_<std::allocator<void> > >)[m[K’:
+[3.388s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:34:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[3.388s]    34 |                                 while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+[3.388s]       |                                         [01;31m[K^~~~~~[m[K
+[3.395s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:23:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.396s]    23 |         void callback_service([01;35m[Kconst std::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Request> request[m[K,
+[3.396s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.396s] [01m[K/home/tm/dev_ws/ros_c++/src/my_first_package/src/my_service_server.cpp:24:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.396s]    24 |                             [01;35m[Kstd::shared_ptr<my_first_package_msgs::srv::MultiSpawn::Response> response[m[K) {
+[3.396s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.870s] gmake[2]: *** [CMakeFiles/my_service_server.dir/build.make:76: CMakeFiles/my_service_server.dir/src/my_service_server.cpp.o] Error 1
+[4.871s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/my_service_server.dir/all] Error 2
+[4.871s] gmake: *** [Makefile:146: all] Error 2
+[4.873s] Invoked command in '/home/tm/dev_ws/ros_c++/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/dev_ws/ros/install/my_test_package:/home/tm/dev_ws/ros/install/my_first_package:/home/tm/dev_ws/ros/install/camera_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/dev_ws/ros_c++/build/my_first_package -- -j12 -l12
